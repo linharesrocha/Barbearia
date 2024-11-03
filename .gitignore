@@ -1,0 +1,131 @@
+# Backend (.NET)
+backend/**/*.rsuser
+backend/**/*.suo
+backend/**/*.user
+backend/**/*.userosscache
+backend/**/*.sln.docstates
+
+# Configurações sensíveis
+backend/**/appsettings.json
+backend/**/appsettings.Development.json
+backend/**/appsettings.Production.json
+backend/Barbearia.API/appsettings.json
+backend/Barbearia.API/appsettings.Development.json
+backend/Barbearia.API/appsettings.Production.json
+
+# Arquivos MonoDevelop/Xamarin Studio
+backend/**/*.userprefs
+backend/**/mono_crash.*
+
+# Resultados de build
+backend/**/[Dd]ebug/
+backend/**/[Dd]ebugPublic/
+backend/**/[Rr]elease/
+backend/**/[Rr]eleases/
+backend/**/x64/
+backend/**/x86/
+backend/**/[Ww][Ii][Nn]32/
+backend/**/[Aa][Rr][Mm]/
+backend/**/[Aa][Rr][Mm]64/
+backend/**/bld/
+backend/**/[Bb]in/
+backend/**/[Oo]bj/
+backend/**/[Oo]ut/
+backend/**/[Ll]og/
+backend/**/[Ll]ogs/
+
+# Visual Studio
+backend/**/.vs/
+backend/**/Generated\ Files/
+backend/**/[Tt]est[Rr]esult*/
+backend/**/[Bb]uild[Ll]og.*
+
+# NUnit
+backend/**/*.VisualState.xml
+backend/**/TestResult.xml
+backend/**/nunit-*.xml
+
+# .NET Core
+backend/**/project.lock.json
+backend/**/project.fragment.lock.json
+backend/**/artifacts/
+
+# ASP.NET Scaffolding
+backend/**/ScaffoldingReadMe.txt
+
+# Visual Studio
+backend/**/*_i.c
+backend/**/*_p.c
+backend/**/*_h.h
+backend/**/*.ilk
+backend/**/*.meta
+backend/**/*.obj
+backend/**/*.iobj
+backend/**/*.pch
+backend/**/*.pdb
+backend/**/*.ipdb
+backend/**/*.pgc
+backend/**/*.pgd
+backend/**/*.rsp
+backend/**/*.sbr
+backend/**/*.tlb
+backend/**/*.tli
+backend/**/*.tlh
+backend/**/*.tmp
+backend/**/*.tmp_proj
+backend/**/*_wpftmp.csproj
+backend/**/*.log
+backend/**/*.vspscc
+backend/**/*.vssscc
+backend/**/.builds
+backend/**/*.pidb
+backend/**/*.svclog
+backend/**/*.scc
+
+# Visual Studio profiler
+backend/**/*.psess
+backend/**/*.vsp
+backend/**/*.vspx
+backend/**/*.sap
+
+# Visual Studio Trace Files
+backend/**/*.e2e
+
+# ReSharper
+backend/**/_ReSharper*/
+backend/**/*.[Rr]e[Ss]harper
+backend/**/*.DotSettings.user
+
+# Visual Studio code coverage
+backend/**/*.coverage
+backend/**/*.coveragexml
+
+# SQL Server files
+backend/**/*.mdf
+backend/**/*.ldf
+backend/**/*.ndf
+
+# Frontend (Angular)
+frontend/**/.angular/
+frontend/**/dist/
+frontend/**/node_modules/
+frontend/**/.sass-cache/
+frontend/**/connect.lock/
+frontend/**/coverage/
+frontend/**/npm-debug.log
+frontend/**/yarn-error.log
+frontend/**/.idea/
+frontend/**/.project
+frontend/**/.classpath
+frontend/**/.c9/
+frontend/**/*.launch
+frontend/**/.settings/
+frontend/**/.vscode/*
+!frontend/**/.vscode/settings.json
+!frontend/**/.vscode/tasks.json
+!frontend/**/.vscode/launch.json
+!frontend/**/.vscode/extensions.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
